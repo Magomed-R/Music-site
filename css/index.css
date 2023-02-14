@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body main .card {
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+}
+body main .card:hover {
+  box-shadow: 0px 0px 10px #d4b536;
+  color: black;
+}
+
+@media (min-width: 1570px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body main .main__musics-group .list-group-item {
+  cursor: pointer;
+}
+body main .main__musics-group .list-group-item:hover img {
+  opacity: 1;
+}
+body main .main__musics-group .list-group-item .number {
+  transition: 0.5s;
+}
+body main .main__musics-group .list-group-item:hover .number {
+  opacity: 0 !important;
+}
+body main .play-img {
+  width: 35px;
+  opacity: 0;
+  transition: 0.5s;
+  margin-left: -30px;
+}
+body main .w-25px {
+  width: 200px;
+}
+body .gap-100 {
+  gap: 100px;
+}
+body .list-group {
+  box-sizing: content-box;
+  white-space: nowrap;
+}
+
+@media (min-width: 1400px) and (max-width: 4200px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 490px) {
+  .w-25px {
+    width: 70px !important;
+  }
+  .list-group-item {
+    width: 380px;
+  }
+  .track-info {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=album.css.map */

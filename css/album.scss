@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    main {
+        .main__musics-group {
+            .list-group-item {
+                cursor: pointer;
+                &:hover img {
+                    opacity: 1;
+                }
+                .number {
+                    transition: 0.5s;
+                }
+                &:hover .number {
+                    opacity: 0 !important;
+                }
+            }
+        }
+        .play-img {
+            width: 35px;
+            opacity: 0;
+            transition: 0.5s;
+            margin-left: -30px;
+        }
+        .w-25px {
+            width: 200px;
+        }
+    }
+    .gap-100 {
+        gap: 100px;
+    }
+    .list-group {
+        box-sizing: content-box;
+        white-space: nowrap;
+    }
+}
+@media (min-width: 1400px) and (max-width: 4200px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 490px) {
+    .w-25px {
+        width: 70px !important;
+    }
+    .list-group-item {
+        width: 380px;
+    }
+    .track-info {
+        font-size: 13px;
+    }
+}
